@@ -93,7 +93,7 @@ nav ul li a:hover{
   color: white;
   float: right;
   line-height: 60px;
-  margin-right: 40px;
+  margin-right: 25px;
   cursor: pointer;
   display: none;
 }
@@ -168,6 +168,12 @@ nav ul li a:hover{
 #myBtn:hover {
   background-color: #555;
 }
+@media (max-width: 900px){
+  #myBtn:hover {
+  background-color:#b71540;
+
+  }
+  }
 /*bottom to top scrollbar*/
 
 /*overlay design*/
@@ -302,6 +308,7 @@ height: 200px;
     flex-direction: column;
   }
   .text{
+    height: 200px;
     width: 99%;
     text-align: center;
   }

@@ -92,7 +92,7 @@ nav ul li a:hover{
   color: white;
   float: right;
   line-height: 60px;
-  margin-right: 40px;
+  margin-right: 25px;
   cursor: pointer;
   display: none;
 }
@@ -163,8 +163,15 @@ nav ul li a:hover{
   border-radius: 50px;
   box-shadow:  0px 2px 8px #999999;
 }
+#myBtn:hover {
+  background-color: #555;
+}
+@media (max-width: 900px){
+  #myBtn:hover {
+  background-color:#b71540;
 
-
+  }
+}
 
 /*overlay design*/
 .stage-1 {
