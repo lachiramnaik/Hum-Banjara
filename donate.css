@@ -248,6 +248,7 @@ margin-top: 20px;
 @media (max-width: 800px) {
 .body{
   width: 99%;
+  height: auto;
 }
 }
 
@@ -296,7 +297,7 @@ height: 200px;
   transform: rotateX(30deg);
 }
 @media (max-width: 800px) {
-  .responsive{
+  .mobile{
     display:flex;
     flex-direction: column;
   }
