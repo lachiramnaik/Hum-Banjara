@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>HUM-BANJARA | Registation</title>
+    <title>HUM-BANJARA | Login</title>
     <script type="jquery/jwuery.js"></script>
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
     <link rel="shortcut icon" type="photos/png" href="home/logo.png">
@@ -86,6 +86,45 @@ function topFunction() {
 </script>
 
   
+<div class="login-forms">
+  <a href="" style="background-color: #2ecc71; color: white;">Login</a>
+<a href="registation-2.html">Registation</a>
+</div>
+<center>
+<label class="user-icon"><i class="fas fa-user-circle"></i></label>
+</center>
+<form action="/action_page.php" style="max-width:400px; margin:auto;"class="was-validated">
+  
+  <div class="input-container">
+    <i class="fa fa-phone icon"></i>
+    <input class="input-field" type="number" placeholder="10-digit mobile number" name="usrnm" required>
+  </div>
+
+  <div class="input-container">
+    <i class="fa fa-key icon"></i>
+    <input class="input-field" id="myinput" type="password" placeholder="6-digit password" name="email" required>
+  </div>
+    <input type="checkbox" onclick="myFunction()">Show Password
+  
+<script>
+function myFunction() {
+  var x = document.getElementById("myinput");
+  if (x.type === "password") {
+    x.type = "text";
+  } else {
+    x.type = "password";
+  }
+}
+</script>
+  
+
+  <button type="submit" class="button">Login</button>
+  <a href="">forget password?</a>
+</form>
+
+
+
+
 
 
 <div class="footers">
