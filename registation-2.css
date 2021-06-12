@@ -196,9 +196,6 @@ nav ul li a:hover{
   background-color: ;
   border-radius: 20px;
 }
-
-
-
 .input-container {
   display: -ms-flexbox; /* IE10 */
   display: flex;
@@ -226,6 +223,7 @@ nav ul li a:hover{
 
 /* Set a style for the submit button */
 .button{
+  margin: 10px;
   background-color: #2ecc71;
   color: white;
   padding: 15px 20px;
@@ -239,9 +237,12 @@ nav ul li a:hover{
   opacity: 1;
 }
 
+@media (max-width: 900px){
+  .was-validated{
+    max-width: 100px;
+  }
 
-
-
+}
 
 
 
