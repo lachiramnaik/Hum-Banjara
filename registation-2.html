@@ -85,7 +85,7 @@ function topFunction() {
 }
 </script>
 
-  
+ 
 <div class="login-forms">
   <a href="registation.html" >Login</a>
 <a href="" style="background-color: #2ecc71; color: white;">Registation</a>
@@ -93,30 +93,29 @@ function topFunction() {
 <center>
 <label class="user-icon"><i class="fas fa-clipboard-list"></i></i></label>
 </center>
-<form action="/action_page.php" style="max-width:400px; margin:auto;"class="was-validated ">
+<form action="savedata.php" style="max-width:400px; margin:auto;"class="was-validated " method="post">
 
   <label for="uname">FULL NAME:</label>
   <div class="input-container">
-    
-    <input class="input-field" type="text" placeholder="Enter your name" name="usrnm" required>
+    <input class="input-field" type="text" placeholder="Enter your name" name="sname" required>
   </div>
 
   <label for="uname">MOBILE NO:</label>
   <div class="input-container">
     
-    <input class="input-field" type="number" placeholder="10-digit mobile number" name="usrnm" required>
+    <input class="input-field" type="number" placeholder="10-digit mobile number" name="phonenumber" required>
   </div>
 
 <label for="uname">MAIL ID(if u have):</label>
   <div class="input-container">
     
-    <input class="input-field" type="Mail" placeholder="Eenter your mail id" name="usrnm">
+    <input class="input-field" type="Mail" placeholder="Eenter your mail id" name="mail">
   </div>
 
   <label for="uname">PASSWORD:</label>
 <div class="input-container">
     
-    <input class="input-field" id="myinput" type="password" placeholder="Enter a passwoed" name="usrnm" required>
+    <input class="input-field" id="myinput" type="password" placeholder="Enter a passwoed" name="password" required>
   </div>
 <input type="checkbox" onclick="myFunction()">Show Password<br>
   
@@ -130,21 +129,30 @@ function myFunction() {
   }
 }
 </script>
+
   <label for="uname">COUNTRY:</label>
   <div class="input-container">
+    <select name="country" class="custom-select mb-3">
+      <option>India</option>
+
+      
+    </select>
     
-    <input class="input-field" id="myinput" type="text" placeholder="Enter your country" name="email" required>
   </div>
   <label for="uname">STATE:</label>
   <div class="input-container">
     
-    <input class="input-field" id="myinput" type="text" placeholder="select your state" name="email" required>
+    <select name="state" class="custom-select mb-3">
+      <option selected>Ap</option>
+      <option>Ts</option>
+      
+    </select>
   </div>
 
 <label for="uname">UPLOAD YOUR PHOTO:</label>
   <div class="input-container">
    
-    <input class="input-field" type="file" placeholder="Upload Your photo" name="usrnm" >
+    <input class="input-field" type="file" placeholder="Upload Your photo" name="photo" >
   </div>
   
 
@@ -153,8 +161,6 @@ function myFunction() {
   <button type="submit" class="button">Register</button>
   
 </form>
-
-
 
 
 
