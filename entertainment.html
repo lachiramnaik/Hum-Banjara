@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Hum-Banjara | Entertainment</title>
+	<script type="jquery/jwuery.js"></script>
+    <link rel="shortcut icon" type="photos/png" href="home/logo.png">
+    <link rel="stylesheet" type="text/css" href="entertainment.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <link rel="stylesheet" type="text/css" href="java.js">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+      <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+
+
+
+</head>
+<body>
+
+<nav class="navbar navbar-expand-md ">
+	<a class="navbar-brand" href="#">
+    <img src="home/home.png" class="logo-img" alt="logo" style="width:50px;">
+  </a>
+  
+  <a class="navbar-brand text-white" href="#">Hum-Banjara</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" 
+  data-target="#collapsibleNavbar">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse justify-content-end mr-5" id="collapsibleNavbar">
+  
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link text-white" href="index.html">Home</a>
+      </li>
+        
+
+    <!-- Dropdown -->
+    <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle text-white" href="#" id="navbardrop" data-toggle="dropdown">
+        Banjara Songs
+      </a>
+      <div class="dropdown-menu">
+        <a class="dropdown-item" href="#">Srinivas Rathod songs</a>
+         <a class="dropdown-item" href="#">Subhash singer Songs</a>
+          <a class="dropdown-item" href="#">Bala Krishna Songs</a>
+        <a class="dropdown-item" href="#">Vijay Kumar Songs</a>
+        <a class="dropdown-item" href="#">Chita Pata Karunakar Songs</a>
+         <a class="dropdown-item" href="#">Korra Kittu Naik Songs</a>
+
+
+
+      </div>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link text-white" href="#">Banjara Comedy</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-white" href="#">Banjara Movies</a>
+      </li>  
+      
+    </ul>
+  </div>  
+</nav>
+
+
+
+
+
+<button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa fa-arrow-up" aria-hidden="true"></i></button>
+
+
+<script>
+//Get the button
+var mybutton = document.getElementById("myBtn");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
+
+
+
+<div id="demo" class="carousel slide" data-ride="carousel">
+  <ul class="carousel-indicators">
+    <li data-target="#demo" data-slide-to="0" class="active"></li>
+    <li data-target="#demo" data-slide-to="1"></li>
+    <li data-target="#demo" data-slide-to="2"></li>
+    <li data-target="#demo" data-slide-to="3"></li>
+  </ul>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="entertainment/movies.jpg" alt="Los Angeles" width="1100" height="500">
+      <div class="carousel-caption">
+        <h3>Banjara Movies</h3>
+        <p></p>
+      </div>   
+    </div>
+    <div class="carousel-item">
+      <img src="entertainment/srinivas.jpg" alt="Chicago" width="1100" height="500">
+      <div class="carousel-caption">
+        <h3>Banjara Singer</h3>
+        <p></p>
+      </div>   
+    </div>
+    <div class="carousel-item">
+      <img src="entertainment/singer.jpg" alt="Chicago" width="1100" height="500">
+      <div class="carousel-caption">
+        <h3>Banjara Singer</h3>
+        <p></p>
+      </div>   
+    </div>
+    <div class="carousel-item">
+      <img src="entertainment/vinod.jpg" alt="New York" width="1100" height="500">
+      <div class="carousel-caption">
+        <h3>Banjara Comidy</h3>
+        <p></p>
+      </div>   
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#demo" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </a>
+  <a class="carousel-control-next" href="#demo" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </a>
+</div>
+
+
+ 
+<div class="container">
+  <h2>Stretched Link in Card</h2>
+  <p>Add the .stretched-link class to a link inside the card, and it will make the whole card clickable (the card will act as a link):</p>
+  <div class="card" style="width:400px">
+    <img class="card-img-top" src="img_avatar1.png" alt="Card image" style="width:100%">
+    <div class="card-body">
+      <h4 class="card-title">John Doe</h4>
+      <p class="card-text">Some example text some example text. John Doe is an architect and engineer</p>
+      <a href="#" class="btn btn-primary stretched-link">See Profile</a>
+    </div>
+  </div>
+</div>
+
+
+
+    
+</body>
+</html>

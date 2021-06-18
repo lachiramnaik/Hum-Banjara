@@ -175,84 +175,42 @@ nav ul li a:hover{
   }
 /*bottom to top scrollbar*/
 
-/*flex box gallary*/
 .row {
-  margin-top: 40px;
   display: -ms-flexbox; /* IE10 */
   display: flex;
   -ms-flex-wrap: wrap; /* IE10 */
   flex-wrap: wrap;
-  padding: 0 0px;
+  padding: 0 4px;
 }
 
 /* Create four equal columns that sits next to each other */
 .column {
-  -ms-flex: 24.8%; /* IE10 */
-  flex: 24.8%;
-  max-width : 24.8%;
-  /*border: 1px solid #777;*/
-  /*max-width: 25%;*/
+  -ms-flex: 25%; /* IE10 */
+  flex: 25%;
+  max-width: 25%;
   padding: 0 4px;
-  margin : 0.1%;
 }
 
 .column img {
-  /*margin-top: 8px;*/
+  margin-top: 8px;
   vertical-align: middle;
   width: 100%;
+ box-shadow: 0px 2px 8px #999999;
 }
 
-.indent{
-  /*margin-top : 10px;*/
-  margin-bottom : 10px;
-  border : 0px solid #777;
-  box-shadow:0px 2px 7px #999999;
-}
-
-.indent:hover{
-  /*margin-top : 10px;*/
-  
-  box-shadow:0px 2px 7px white;
-}
-
-
-div.desc {
-  padding: 15px;
-  text-align: center;
-  display: ;
-  flex-wrap: wrap;
-  flex: 1;
+.column img:hover{
+  box-shadow: none;
 }
 /* Responsive layout - makes a two column-layout instead of four columns */
-/*@media all and (max-width: 900px) {
+@media screen and (max-width: 800px) {
   .column {
     -ms-flex: 50%;
     flex: 50%;
     max-width: 50%;
   }
-}*/
-
-/* Responsive layout - makes the two columns stack on top of each other instead of next to each other
-
-
-*/@media screen and (max-width: 1100px) {
-  .column {
-    -ms-flex: 49%;
-    flex: 49%;
-    max-width: 49%;
-    margin : 0.5%;
-  }
 }
-/*@media screen and (max-width: 600px) {
-  .column {
-    -ms-flex: 60%;
-    flex: 60%;
-    max-width: 99%;
-    margin : 0.5%;
-  }
-}*/
 
-
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
 
 
 /*foters*/
