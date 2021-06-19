@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Subhash Rathod Songs</title>
+	<link rel="shortcut icon" type="photos/png" href="home/logo.png">
+    
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+      
+  <link rel="stylesheet" type="text/css" href="bootstrap/css">
+   <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+      <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>  
+
+
+
+<style>
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat',sans-serif;
+  scroll-behavior: smooth;
+ max-width: 100%;
+  /*overflow-x: hidden;*/
+}
+body::selection{
+  color: white;
+  background: ;
+}
+
+
+/*scrollbar design*/
+body::-webkit-scrollbar{
+  width: 10px;
+}
+body::-webkit-scrollbar-track{
+  background: ;
+  border-radius: 0px;
+  box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+  background: #718093;
+}
+body::-webkit-scrollbar-thumb{
+  border-radius: 10px;
+  box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+  background:   #273c75;
+  border: 0px solid #EE5A24;
+}
+body::-webkit-scrollbar-thumb:hover{
+  background: ;
+}
+
+
+/*bottom to top scrollbar*/
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color:#b71540 ;
+  color: white;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 50px;
+  box-shadow:  0px 2px 8px #999999;
+}
+#myBtn:hover {
+  background-color: #555;
+}
+@media (max-width: 900px){
+  #myBtn:hover {
+  background-color:#b71540;
+
+  }
+}
+
+
+.row {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  -ms-flex: 25%; /* IE10 */
+  flex: 25%;
+  max-width: auto;
+  padding: 0 8px;
+  margin-left: 15px;
+}
+
+.column iframe {
+  margin-top: 10px;
+  vertical-align: middle;
+  width: 100%;
+  box-shadow: 0px 2px 7px #999999;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
+
+nav{
+  background: #264040;
+}
+.logo-img{
+  clip-path: circle();
+}
+.navbar-toggler-icon{
+  color: white;
+}
+
+
+
+/*foters*/
+.footers{
+  margin: 0px;
+  padding: 0px;
+max-width:100%;
+  height: auto;
+ background:  #353b48;
+ padding-bottom:0px;
+ }
+
+.cards{
+  max-width: 1100px;
+  margin: 0px auto;
+  text-align: center;
+  padding: 30px;
+}
+
+.services{
+  display: flex;
+  align-items: center;
+}
+.content{
+
+  display: flex;
+  flex-wrap: wrap;
+  flex: 1;
+  margin: 10px;
+  padding: 0px;
+  border: 0px solid black;
+  border-radius: 4px;
+  transition: all .3s ease;
+}
+
+.content > *{
+  flex: 1 1 100%;
+}
+
+
+.content a{
+  margin: 10px 0;
+  background: ;
+  color: white;
+  text-decoration: none;
+  text-transform: ;
+  border: 0px solid black;
+  padding: 0px 0;
+  border-radius: 0px;
+  transition: .3s ease;
+}
+.content-3 h2{
+  color: white;
+}
+.content-3 hr{
+  width: 120px;
+  height: 2px;
+  background: white;
+}
+.content-3 a {
+padding: 8px;
+clip-path: circle();
+background: white;
+  font-size: 25px;
+  color:#e55039;
+}
+
+.content-3 a:hover{
+  color: #58B19F;
+  
+  transform: 0.3s ease;
+}
+.content-2 h2{
+  color: white;
+}
+.content-2 hr{
+  width: 120px;
+  height: 2px;
+  background: white;
+}
+/*form style*/
+.card-body input{
+  border-radius: 6px;
+width: 100%;
+padding: 10px;
+margin: 0px;
+}
+.card-body textarea{
+border-radius: 6px;
+padding: 40px;
+width: 100%;
+}
+.card-body form{
+  display:flex;
+  flex-direction: column;
+flex: left;
+padding: 5px;
+}
+.card-body button{
+  margin-top:5px;
+  width: 80px;
+flex: left;
+text-decoration: none;
+border-radius: 5px;
+padding: 5px 10px;
+background: #e84118;
+color: white;
+}
+.card-body button:hover{
+  background: #273c75;
+}
+
+
+.content-1 a:hover{
+  color: #dcdde1;
+ }
+data-toggle{
+  color: white;
+}
+@media (max-width: 750px) {
+  .services{
+    display: flex;
+    flex-direction: column;
+  }
+  .content{
+width: 99%;
+  box-shadow: 1px 1px 4px white;
+  border: 0px solid black;
+  border-radius: 0px;
+  transition: all .3s ease;
+  margin: 10px;
+}
+}
+
+/*Adress*/
+.adrass{
+   justify-content: center;
+  text-align: center;
+}
+.adrass a{
+  text-decoration: none;
+  font-size: 13px;
+  color: white;
+}
+.adrass p{
+  text-decoration: none;
+  font-size: 13px;
+  color: white;
+}
+.adrass a:hover{
+  color:#F8EFBA; 
+}
+.adrass h3{
+  padding: 0px;
+   color: white;
+   font-size: 13px;
+ }
+/*copyright*/
+.copyright {
+  justify-content: center;
+  text-align: center;
+}
+.copyright a{
+  text-decoration: none;
+  font-size: 13px;
+  color: white;
+}
+.copyright a:hover{
+  color:#F8EFBA; 
+}
+.copyright h3{
+  margin-top: 5px;
+  padding:5px;
+   color: white;
+   font-size: 13px;
+ }
+.copyright h4{
+  font-size: 12px;
+   color: white;
+
+ }
+
+
+
+
+</style>
+
+
+
+
+</head>
+<body>
+
+
+<nav class="navbar navbar-expand-md  bg-dark navbar-dark">
+  <a class="navbar-brand" href="#">
+    <img src="home/home.png" class="logo-img" alt="logo" style="width:50px;">
+  </a>
+  
+  <a class="navbar-brand text-white" href="#">Hum-Banjara</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse justify-content-end mr-5" id="collapsibleNavbar">
+  
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link text-white" href="index.html">Home</a>
+      </li>
+        
+
+    <!-- Dropdown -->
+    <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle text-white" href="#" id="navbardrop" data-toggle="dropdown">
+        Banjara Songs
+      </a>
+      <div class="dropdown-menu">
+        <a class="dropdown-item" href="srinivas.html">Srinivas Rathod songs</a>
+         <a class="dropdown-item" href="subhash.html">Subhash singer Songs</a>
+          <a class="dropdown-item" href="balakrishna.html">Bala Krishna Songs</a>
+        <a class="dropdown-item" href="vijay.html">Vijay Kumar Songs</a>
+        <a class="dropdown-item" href="chitapata.html">Chita Pata Karunakar Songs</a>
+         <a class="dropdown-item" href="korrakittu.html">Korra Kittu Naik Songs</a>
+
+
+
+      </div>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link text-white" href="movies.html">Banjara Movies</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-white" href="Comedy.html">Banjara Comedies</a>
+      </li>  
+      
+    </ul>
+  </div>  
+</nav>
+
+
+
+
+
+
+<button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa fa-arrow-up" aria-hidden="true"></i></button>
+
+
+<script>
+//Get the button
+var mybutton = document.getElementById("myBtn");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
+
+
+
+
+
+<!-- Photo Grid -->
+<div class="row"> 
+  <div class="column">
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/BBQ6OnE_ooE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/JnpLrGVbFMY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/NQu5BE9xMiM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/WZsO5t-WwQA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  	
+  </div>
+  <div class="column">
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/CLb_q3QbQtM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/S7GIHDJkjiM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/xuxjKVKvBsY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/TdcNxLvhh6U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/O-Vm927y7jc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+  </div>  
+  <div class="column">
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/i2k00LoMyp0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/RMnYTqfHm5U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/os-1lLrvHFo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/zCXdrN1mNik" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+   
+  </div>
+  
+</div>
+
+
+
+<div class="footers">
+  <div class="cards">
+      
+<div class="services">
+        <div class="content content-1">
+          <a href="https://banjarafilmindustry.com/">Banjara film industry</a>
+          
+<a href="https://humbanjara.in/">Old website</a>
+<a href="tel:91 9000009591">Contact:- whatsup:9000009591</a>
+        </div>
+
+<div class="content content-2">
+  <center><h2>Contact us</h2><hr></center>
+                    <div class="card-body">
+                        <form action="" method="post">
+                            <input type="text" name="Name" placeholder="Name" class="form-control mb-2" required>
+                            <input type="email" name="Email" placeholder="Email" class="form-control mb-2" required>
+                          <!--  <input type="text" name="Subject" placeholder="Subject" class="form-control mb-2" required> -->
+                            <textarea name="Queries" class="form-control query mb-2" placeholder="Queries" required></textarea>
+                            <button class="btn btn-success" name="btn-send"> Send </button>
+                        </form>
+                    </div>
+                </div>
+            
+
+
+
+<div class="content content-3">
+  <center><h2>Follow us</h2><hr></center>
+  <a href="https://www.facebook.com/groups/125919441210027/?ref=share
+" class="social"data-toggle="tooltip" data-placement="top" title="330K+ followers"><i class="fab  fa-facebook" aria-hidden="true"></i></a>
+          <a href="https://instagram.com/hum_banjara_official?utm_medium=copy_link" class="social" data-toggle="tooltip" data-placement="top" title="11K+ followers"><i class="fab  fa-instagram" aria-hidden="true"></i></a>
+          <a href="https://twitter.com/HumBanjara?s=09" class="social" data-toggle="tooltip" data-placement="top" title="100+ followers"><i class="fab fa-twitter" aria-hidden="true"></i></i></a>
+          <a href="https://www.linkedin.com/in/hum-banjara-38178b197" class="social" ><i class="fab fa-linkedin" aria-hidden="true"></i></i></i></a>
+         
+        </div>
+</div>
+<script>
+$(document).ready(function(){
+  $('[data-toggle="tooltip"]').tooltip();   
+});
+</script>
+
+<div class="adrass">
+
+  <h3><a href="index.html">Hum Banjara</a></h3><br>
+    <p>HUM BANJARA 15-83/A Hyderabad, Telangana 500060<p><br>
+      <p><a href="mailto:ramlakshman04@gmail.com">Mail:ramlakshman04@gmail.com</a></p>
+      <p><a href="tel:91 9000009591">Cell:(+91)-90000-09950 (+91)-90000-09591</a></p>
+
+
+</div>
+
+  <div class="copyright">
+    <h3><a href="devaloper-contact.html">Contact-developer</a></h3><br>
+    <h4>© 2021 Hum-Banjara. All rights reserved.</h4>
+
+    
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

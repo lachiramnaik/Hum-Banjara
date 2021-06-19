@@ -189,6 +189,7 @@ nav ul li a:hover{
   flex: 25%;
   max-width: 25%;
   padding: 0 4px;
+  margin-left: 15px;
 }
 
 .column img {
