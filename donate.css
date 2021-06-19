@@ -115,7 +115,7 @@ nav ul li a:hover{
     font-size: 16px;
   }
 }
-@media (max-width: 900px){
+@media (max-width: 1000px){
   .checkbtn{
     display: block;
   }
